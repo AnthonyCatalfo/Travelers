@@ -27,7 +27,7 @@ class Itineraries extends React.Component {
     return (
       <div className="row">
         <div className="col-md-12" style={{ marginTop: "30px" }}>
-          <h4>Friends' Destinations</h4>
+          <h4> Destinations</h4>
         </div>
         {this.state.data.map((e) => (
           <div

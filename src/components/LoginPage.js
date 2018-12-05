@@ -35,15 +35,7 @@ class LoginPage extends React.Component {
         this.setState({ message: '' })
         //redirect to destination page
         this.setState({ toItineraries: true })
-        //localStorage.lastname = "Fatty";
-        // console.log(localStorage.getItem('lastname'))
-
-        // Retrieve
-        // let last = document.getElementById("result").innerHTML = localStorage.lastname;
-        //  console.log(last)
-        //     token=localStorage.setItem('token', res.token);
-        //this.props.history.push("/all-itineraries");
-        //  debugger;
+    
 
 
       })
